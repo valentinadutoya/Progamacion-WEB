@@ -1,0 +1,39 @@
+1-¿Cuál es la propiedad de CSS que se utiliza para cambiar el comportamiento de los elementos en un contenedor,
+ permitiendo un diseño flexible y eficiente?
+
+La propiedad de CSS que permite cambiar el comportamiento de los elementos en un contenedor para lograr un diseño flexible y eficiente es `display`.
+ Con valores como `block`, `inline`, `inline-block`, `flex` y `grid`, controla cómo se muestran los elementos en el documento, 
+siendo clave para crear diseños web responsivos y adaptables.
+
+2-¿Cuál es la propiedad de CSS que permite definir el espacio entre los elementos hijos dentro
+ de un contenedor flex o grid?
+
+La propiedad de CSS que define el espacio entre los elementos hijos en un contenedor flex o grid es `gap`.
+ Permite especificar la separación entre filas y columnas en un diseño flexible (`flex`) o en una disposición en cuadrícula (`grid`),
+ facilitando la creación de diseños espaciados uniformemente.
+
+3-¿Cuál es la diferencia entre justify-content y align-items en un contenedor flex?
+
+justify-content maneja la alineación horizontal y align-items la vertical en un contenedor flex.
+
+4-¿Cuál es la propiedad de CSS que se utiliza para definir el tamaño de las filas y 
+columnas en un contenedor grid?
+
+La propiedad de CSS que define el tamaño de filas y columnas en un contenedor grid es `grid-template-rows` para las filas y `grid-template-columns` para las columnas.
+ Permiten especificar el tamaño utilizando valores como píxeles, porcentajes o fracciones, 
+creando así una estructura de cuadrícula personalizada.
+
+5-Describe la diferencia principal entre display: flex y display: grid en CSS.
+
+La diferencia principal entre `display: flex` y `display: grid` en CSS es cómo organizan los elementos hijos en su contenedor.
+display: flex organiza los elementos en una dimensión (horizontal o vertical) a lo largo de un eje principal, mientras que `display: grid` organiza los elementos en filas y columnas,
+ permitiendo un diseño bidimensional.
+
+
+6-¿Cómo se alinean los elementos hijos dentro de un contenedor flex utilizando CSS?
+
+ En CSS, puedes alinear elementos dentro de un contenedor flex utilizando justify-content para el eje principal y align-items para el eje secundario. 
+ Valores comunes incluyen flex-start, flex-end, center, space-between, space-around para justify-content, y flex-start, flex-end, center, baseline, stretch para align-items.
+
+
+
