@@ -1,0 +1,17 @@
+.encabezado {
+  background-color: #6c7bcf;
+  color: #000000;
+}
+
+.alinear {
+  display: flex;
+}
+
+.imagen {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.letra {
+  font-style: oblique;
+}
