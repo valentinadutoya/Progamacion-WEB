@@ -1,0 +1,39 @@
+.productos{
+    width: 300px;
+}
+
+.linea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.alinear-grilla{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gap{
+    display: flex;
+    gap: 20px;
+}
+.fondo{
+    background-color: #9994df;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.aire{
+    width: 360px;
+
+}
+
+.boton{
+    background-color: #089b08;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
