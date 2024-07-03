@@ -1,0 +1,51 @@
+.currency-converter {
+  width: 320px; /* Aumentamos un poco el ancho para que se vea más espaciado */
+  margin: 50px auto; /* Centrado vertical y horizontal */
+  padding: 20px;
+  background-color: #017699;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  text-align: center; /* Alineación de texto al centro */
+
+  h2 {
+      font-size: 1.8em; /* Tamaño de fuente un poco mayor */
+      color: #333;
+      margin-bottom: 10px; /* Espacio inferior para separación */
+  }
+
+  .converter-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+
+      input[type="number"], input[type="text"], select {
+          width: 100%;
+          padding: 12px;
+          margin-bottom: 10px;
+          font-size: 1.2em;
+          border: 1px solid #8a8787;
+          border-radius: 6px;
+          outline: none;
+          box-sizing: border-box; /* Incluir el padding en el ancho total */
+      }
+
+      select {
+          appearance: none;
+          -webkit-appearance: none;
+          background: url('data:image/svg+xml;utf8,<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>') no-repeat right 8px center/18px 18px;
+          padding-right: 30px;
+      }
+
+      .equals {
+          font-size: 1.5em;
+          margin: 20px 0;
+      }
+
+  }
+}
+:root {
+  background-color:#013342 ;
+}
