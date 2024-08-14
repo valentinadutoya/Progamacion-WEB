@@ -15,9 +15,9 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact">
-      <h2 className="contact-title">Contacto</h2>
+      <h2 className="contact-title titulo">Contacto</h2>
       <form className="contact-form" onSubmit={handleSubmit}>
-        <div className="form-group">
+        <div className="form-group titulo">
           <label htmlFor="name">Nombre:</label>
           <input 
             type="text" 
@@ -27,7 +27,7 @@ const Contact = () => {
             required 
           />
         </div>
-        <div className="form-group">
+        <div className="form-group titulo">
           <label htmlFor="email">Correo Electrónico:</label>
           <input 
             type="email" 
@@ -37,9 +37,9 @@ const Contact = () => {
             required 
           />
         </div>
-        <div className="form-group">
+        <div className="form-group titulo">
           <label htmlFor="message">Mensaje:</label>
-          <textarea 
+          <textarea className='chico'
             id="message" 
             value={message} 
             onChange={(e) => setMessage(e.target.value)} 
